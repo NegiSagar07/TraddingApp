@@ -26,7 +26,7 @@ const Logo = () => {
 
   return (
     <div>
-      <div className='flex flex-row'>
+      <div className='flex flex-row bg-[#F5F7F8]'>
         <div className=' w-1/6 h-1/2 ml-72 mt-12 border-2 border-gray-400 rounded-md p-2'>
 
           <p className='text-2xl font-bold text-gray-700'>Nifty 50 Index</p>
@@ -75,6 +75,20 @@ const Logo = () => {
               <div className='pl-16 pt-10'>
                 <Chart/>
               </div>
+                <div className='flex flex-row justify-between'>
+                  <div className='w-1/3 h-24 shadow-xl mr-4 rounded-md'>
+                    <p className='pl-2 text-xl font-medium'>Index</p>
+                    <p className='pl-2 pt-2 text-gray-400'>Nifty</p>
+                  </div>
+                  <div className='w-1/3 h-24 shadow-xl mr-4 rounded-md'>
+                    <p className='pl-2 text-xl font-medium'>Largecap</p>
+                    <p className='pl-2 pt-2 text-gray-400'>this index consist of largecap companies</p>
+                  </div>
+                  <div className='w-1/3 h-24 shadow-xl rounded-md'>
+                    <p className='pl-2 text-xl font-medium'>Low Risk</p>
+                    <p className='pl-2 pt-2 text-gray-400'>This is the benchmark market index</p>
+                  </div>
+                </div>
             </div>
             {/* details */}
             <div>
